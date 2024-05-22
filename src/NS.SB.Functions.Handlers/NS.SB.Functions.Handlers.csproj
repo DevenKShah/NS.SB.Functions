@@ -18,9 +18,6 @@
     <PackageReference Include="NServiceBus.AzureFunctions.Worker.ServiceBus" Version="5.0.0" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NS.SB.Functions.Messages\NS.SB.Functions.Messages.csproj" />
-  </ItemGroup>
-  <ItemGroup>
     <None Update="host.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
