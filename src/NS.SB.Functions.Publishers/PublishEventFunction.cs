@@ -9,14 +9,14 @@ using NServiceBus;
 
 namespace NS.SB.Sender.Functions;
 
-public class PublishEventFunction(IFunctionEndpoint _functionEndpoint, ILogger<PublishEventFunction> logger)
+public class PublishEventFunction(IFunctionEndpoint _functionEndpoint, ILogger<PublishEventFunction> _logger)
 {
     [Function("Function1")]
     public async Task<IActionResult> Run(
         [HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)] HttpRequest req,
         FunctionContext executionContext)
     {
-        logger.LogInformation("C# Timer trigger function executed at: {Time}", DateTime.Now);
+        _logger.LogInformation("C# Timer trigger function executed at: {Time}", DateTime.Now);
 
         HelloWorldEvent myEvent = new("Deven", DateTime.Now);
 

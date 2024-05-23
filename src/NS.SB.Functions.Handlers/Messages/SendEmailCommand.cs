@@ -7,5 +7,4 @@ public class SendEmailCommand
     {
         RecipientsAddress = recipientsAddress;
     }
-
 }

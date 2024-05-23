@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NS.SB.Functions.Messages", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NS.SB.Functions.Publishers", "NS.SB.Functions.Publishers\NS.SB.Functions.Publishers.csproj", "{4AB52A3A-CFE8-4648-9B47-D739787FFB08}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NS.SB.Functions.Console", "NS.SB.Functions.Console\NS.SB.Functions.Console.csproj", "{D7A5ACE8-F805-4B36-950E-7D1F362F05CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,8 +29,15 @@ Global
 		{4AB52A3A-CFE8-4648-9B47-D739787FFB08}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4AB52A3A-CFE8-4648-9B47-D739787FFB08}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4AB52A3A-CFE8-4648-9B47-D739787FFB08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7A5ACE8-F805-4B36-950E-7D1F362F05CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7A5ACE8-F805-4B36-950E-7D1F362F05CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7A5ACE8-F805-4B36-950E-7D1F362F05CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7A5ACE8-F805-4B36-950E-7D1F362F05CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FD497F3A-43E2-4D96-AB8B-5F9434DC4C31}
 	EndGlobalSection
 EndGlobal
